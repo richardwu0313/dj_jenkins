@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dj-jenkins"
+version = "0.1.0"
+description = ""
+authors = ["richard <richard_wu0313@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1"
+djangorestframework = "^3.15.2"
+mysqlclient = "^2.2.4"
+loguru = "^0.7.2"
+python-jenkins = "1.8.0"
+drf-yasg = "^1.21.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
